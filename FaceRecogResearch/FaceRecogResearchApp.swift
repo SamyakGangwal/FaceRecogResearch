@@ -11,7 +11,10 @@ import SwiftUI
 struct FaceRecogResearchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Introduction()
+            Consent()
+            Instruction()
+            BeginTrial()
         }
     }
 }
