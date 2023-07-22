@@ -7,24 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0615EBBA2A560230004F1C05 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0615EBB92A560230004F1C05 /* CircularProgressBar.swift */; };
+		0615EBBC2A5750AB004F1C05 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0615EBBB2A5750AB004F1C05 /* SuccessView.swift */; };
+		0615EBBE2A5767B1004F1C05 /* Conditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0615EBBD2A5767B1004F1C05 /* Conditions.swift */; };
 		0643802F2A1EEFBC00EC2FE3 /* FaceRecogResearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0643802E2A1EEFBC00EC2FE3 /* FaceRecogResearchApp.swift */; };
 		064380312A1EEFBC00EC2FE3 /* Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064380302A1EEFBC00EC2FE3 /* Introduction.swift */; };
 		064380332A1EEFBE00EC2FE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064380322A1EEFBE00EC2FE3 /* Assets.xcassets */; };
 		064380362A1EEFBF00EC2FE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064380352A1EEFBF00EC2FE3 /* Preview Assets.xcassets */; };
 		0643803E2A1F5D2B00EC2FE3 /* Consent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0643803D2A1F5D2B00EC2FE3 /* Consent.swift */; };
-		064380402A1F77CE00EC2FE3 /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0643803F2A1F77CE00EC2FE3 /* Instruction.swift */; };
+		064380402A1F77CE00EC2FE3 /* InstructionA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0643803F2A1F77CE00EC2FE3 /* InstructionA.swift */; };
 		064380422A1F77F500EC2FE3 /* BeginTrial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064380412A1F77F500EC2FE3 /* BeginTrial.swift */; };
+		0643805E2A2E9C7000EC2FE3 /* CameraViewDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0643805D2A2E9C7000EC2FE3 /* CameraViewDriver.swift */; };
+		06952F7C2A4A903E003F81D2 /* NoSpaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06952F7B2A4A903E003F81D2 /* NoSpaceList.swift */; };
+		06E107E32A61DCA500126AF1 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E107E22A61DCA500126AF1 /* PreviewView.swift */; };
+		06E107E72A6B189100126AF1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E107E62A6B189100126AF1 /* Card.swift */; };
+		06E107E92A6B192E00126AF1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E107E82A6B192E00126AF1 /* CardView.swift */; };
+		06E107ED2A6B2FDC00126AF1 /* InstructionB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E107EC2A6B2FDC00126AF1 /* InstructionB.swift */; };
+		06E107EF2A6B2FEF00126AF1 /* InstructionC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E107EE2A6B2FEF00126AF1 /* InstructionC.swift */; };
+		06E107F12A6B340800126AF1 /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E107F02A6B340800126AF1 /* Instruction.swift */; };
+		06E107F32A6B859200126AF1 /* PhoneOtpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E107F22A6B859200126AF1 /* PhoneOtpView.swift */; };
+		06E107F52A6B885D00126AF1 /* FaceDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E107F42A6B885D00126AF1 /* FaceDetection.swift */; };
+		06E107F72A6B891700126AF1 /* BulletPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E107F62A6B891700126AF1 /* BulletPoint.swift */; };
+		06E107F92A6B8D3500126AF1 /* HoleMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E107F82A6B8D3500126AF1 /* HoleMask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0615EBB92A560230004F1C05 /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		0615EBBB2A5750AB004F1C05 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		0615EBBD2A5767B1004F1C05 /* Conditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditions.swift; sourceTree = "<group>"; };
 		0643802B2A1EEFBC00EC2FE3 /* FaceRecogResearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceRecogResearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0643802E2A1EEFBC00EC2FE3 /* FaceRecogResearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRecogResearchApp.swift; sourceTree = "<group>"; };
 		064380302A1EEFBC00EC2FE3 /* Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Introduction.swift; sourceTree = "<group>"; };
 		064380322A1EEFBE00EC2FE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		064380352A1EEFBF00EC2FE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0643803D2A1F5D2B00EC2FE3 /* Consent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consent.swift; sourceTree = "<group>"; };
-		0643803F2A1F77CE00EC2FE3 /* Instruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
+		0643803F2A1F77CE00EC2FE3 /* InstructionA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionA.swift; sourceTree = "<group>"; };
 		064380412A1F77F500EC2FE3 /* BeginTrial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginTrial.swift; sourceTree = "<group>"; };
+		0643805D2A2E9C7000EC2FE3 /* CameraViewDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewDriver.swift; sourceTree = "<group>"; };
+		06952F402A3B7801003F81D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		06952F7B2A4A903E003F81D2 /* NoSpaceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSpaceList.swift; sourceTree = "<group>"; };
+		06E107E22A61DCA500126AF1 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		06E107E62A6B189100126AF1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		06E107E82A6B192E00126AF1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		06E107EC2A6B2FDC00126AF1 /* InstructionB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionB.swift; sourceTree = "<group>"; };
+		06E107EE2A6B2FEF00126AF1 /* InstructionC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionC.swift; sourceTree = "<group>"; };
+		06E107F02A6B340800126AF1 /* Instruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
+		06E107F22A6B859200126AF1 /* PhoneOtpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneOtpView.swift; sourceTree = "<group>"; };
+		06E107F42A6B885D00126AF1 /* FaceDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetection.swift; sourceTree = "<group>"; };
+		06E107F62A6B891700126AF1 /* BulletPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletPoint.swift; sourceTree = "<group>"; };
+		06E107F82A6B8D3500126AF1 /* HoleMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleMask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +88,8 @@
 		0643802D2A1EEFBC00EC2FE3 /* FaceRecogResearch */ = {
 			isa = PBXGroup;
 			children = (
+				06952F7D2A4A9081003F81D2 /* Model */,
+				06952F402A3B7801003F81D2 /* Info.plist */,
 				0643803C2A1F556600EC2FE3 /* Views */,
 				0643802E2A1EEFBC00EC2FE3 /* FaceRecogResearchApp.swift */,
 				064380322A1EEFBE00EC2FE3 /* Assets.xcassets */,
@@ -78,10 +111,32 @@
 			children = (
 				064380302A1EEFBC00EC2FE3 /* Introduction.swift */,
 				0643803D2A1F5D2B00EC2FE3 /* Consent.swift */,
-				0643803F2A1F77CE00EC2FE3 /* Instruction.swift */,
+				0643803F2A1F77CE00EC2FE3 /* InstructionA.swift */,
 				064380412A1F77F500EC2FE3 /* BeginTrial.swift */,
+				0643805D2A2E9C7000EC2FE3 /* CameraViewDriver.swift */,
+				06952F7B2A4A903E003F81D2 /* NoSpaceList.swift */,
+				0615EBB92A560230004F1C05 /* CircularProgressBar.swift */,
+				0615EBBB2A5750AB004F1C05 /* SuccessView.swift */,
+				0615EBBD2A5767B1004F1C05 /* Conditions.swift */,
+				06E107E22A61DCA500126AF1 /* PreviewView.swift */,
+				06E107EC2A6B2FDC00126AF1 /* InstructionB.swift */,
+				06E107EE2A6B2FEF00126AF1 /* InstructionC.swift */,
+				06E107F22A6B859200126AF1 /* PhoneOtpView.swift */,
+				06E107F42A6B885D00126AF1 /* FaceDetection.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		06952F7D2A4A9081003F81D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06E107E62A6B189100126AF1 /* Card.swift */,
+				06E107E82A6B192E00126AF1 /* CardView.swift */,
+				06E107F02A6B340800126AF1 /* Instruction.swift */,
+				06E107F62A6B891700126AF1 /* BulletPoint.swift */,
+				06E107F82A6B8D3500126AF1 /* HoleMask.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,9 +211,24 @@
 			files = (
 				0643803E2A1F5D2B00EC2FE3 /* Consent.swift in Sources */,
 				064380312A1EEFBC00EC2FE3 /* Introduction.swift in Sources */,
-				064380402A1F77CE00EC2FE3 /* Instruction.swift in Sources */,
+				064380402A1F77CE00EC2FE3 /* InstructionA.swift in Sources */,
+				06E107F72A6B891700126AF1 /* BulletPoint.swift in Sources */,
+				06E107E32A61DCA500126AF1 /* PreviewView.swift in Sources */,
+				06E107EF2A6B2FEF00126AF1 /* InstructionC.swift in Sources */,
+				0615EBBA2A560230004F1C05 /* CircularProgressBar.swift in Sources */,
+				0615EBBE2A5767B1004F1C05 /* Conditions.swift in Sources */,
+				0615EBBC2A5750AB004F1C05 /* SuccessView.swift in Sources */,
+				06E107E92A6B192E00126AF1 /* CardView.swift in Sources */,
+				06952F7C2A4A903E003F81D2 /* NoSpaceList.swift in Sources */,
+				0643805E2A2E9C7000EC2FE3 /* CameraViewDriver.swift in Sources */,
+				06E107F32A6B859200126AF1 /* PhoneOtpView.swift in Sources */,
+				06E107F52A6B885D00126AF1 /* FaceDetection.swift in Sources */,
 				064380422A1F77F500EC2FE3 /* BeginTrial.swift in Sources */,
+				06E107E72A6B189100126AF1 /* Card.swift in Sources */,
 				0643802F2A1EEFBC00EC2FE3 /* FaceRecogResearchApp.swift in Sources */,
+				06E107F92A6B8D3500126AF1 /* HoleMask.swift in Sources */,
+				06E107F12A6B340800126AF1 /* Instruction.swift in Sources */,
+				06E107ED2A6B2FDC00126AF1 /* InstructionB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,13 +357,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FaceRecogResearch/Preview Content\"";
+				DEVELOPMENT_TEAM = TD5AMBS8XB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceRecogResearch/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For face recognition";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Use image for face recognition";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,13 +390,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FaceRecogResearch/Preview Content\"";
+				DEVELOPMENT_TEAM = TD5AMBS8XB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceRecogResearch/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For face recognition";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Use image for face recognition";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -8,13 +8,30 @@
 import SwiftUI
 
 struct BeginTrial: View {
+    @Binding var selected_option: Int
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct BeginTrial_Previews: PreviewProvider {
-    static var previews: some View {
-        BeginTrial()
+        NavigationStack {
+            VStack(alignment: .leading) {
+                Text("Trail will start now")
+                Spacer()
+                HStack {
+                    Spacer()
+                    NavigationLink {
+                        if selected_option == 1 {
+                            SimpleListView()
+                        } else if selected_option == 2 {
+                            CameraView()
+                        } else {
+                            CircularProgressBarView()
+                        }
+                    } label: {
+                        Text("Next")
+                    }
+                    .padding()
+                    .contentShape(Rectangle())
+                    .buttonStyle(.bordered)
+                }
+            }
+        }
     }
 }
